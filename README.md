@@ -1,19 +1,19 @@
-# 🔍 Phishing Email Detection using BERT
+# Phishing Email Detection using BERT
 
 An intelligent phishing email detection system using BERT (Bidirectional Encoder Representations from Transformers) to classify emails as legitimate or phishing with **95.6% accuracy**.
 
-## 📊 Project Overview
+## Project Overview
 
-With the rapid rise of AI-generated content, phishing emails have become more sophisticated and harder to detect through traditional methods. This project leverages a fine-tuned BERT model to analyze email content and distinguish between phishing and legitimate messages.
+With the rapid rise of AI-generated content, phishing emails have become more sophisticated and harder to detect through traditional methods. This project leverages a BERT model to analyze email content and distinguish between phishing and legitimate messages.
 
-## 🎯 Model Performance
+## Model Performance
 
 - **Accuracy**: 95.6%
 - **Precision**: 99.2%
 - **Recall**: 92.4%
 - **F1 Score**: 95.7%
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Model**: BERT (bert-base-uncased)
 - **Framework**: PyTorch, Hugging Face Transformers
@@ -39,7 +39,7 @@ phishing-detection/
 └── requirements.txt                 # Python dependencies
 ```
 
-## 🚀 Getting Started
+##Getting Started
 
 ### Prerequisites
 
@@ -79,14 +79,14 @@ Run the last cell in the notebook to classify any email:
 # Press Enter on an empty line to get prediction
 ```
 
-## 📖 Dataset
+## Dataset
 
 - **Source**: [Kaggle Phishing Email Dataset](https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset)
 - **Total Samples**: 82,486 emails
 - **Training Sample**: 2,500 emails (balanced)
 - **Split**: 70% train, 10% validation, 20% test
 
-## 🧠 Model Architecture
+## Model Architecture
 
 - **Base Model**: BERT (bert-base-uncased)
 - **Fine-tuning**: 2 epochs
@@ -95,7 +95,7 @@ Run the last cell in the notebook to classify any email:
 - **Optimizer**: AdamW
 - **Device**: CPU/GPU/MPS (auto-detection)
 
-## 🔬 Methodology
+## Methodology
 
 ### Preprocessing
 - **Lowercasing only** - Preserves phishing indicators like:
@@ -135,7 +135,7 @@ Actual  Legitimate    XXX       XX
 weighted avg       0.96      0.96      0.96       500
 ```
 
-## 💡 Example Usage
+##Example Usage
 
 ### Phishing Email Example
 ```
@@ -143,7 +143,7 @@ URGENT: Your account has been compromised!
 Click here immediately to verify your identity: http://suspicious-link.com
 If you don't act within 24 hours, your account will be suspended.
 
-Result: 🚨 Phishing (87.7% confidence)
+Result: Phishing (87.7% confidence)
 ```
 
 ### Legitimate Email Example
@@ -152,19 +152,16 @@ Hi team, our weekly meeting is scheduled for tomorrow at 2 PM.
 Please review the attached agenda beforehand.
 Looking forward to seeing everyone there!
 
-Result: ✅ Legitimate (91.2% confidence)
+Result: Legitimate (91.2% confidence)
 ```
 
-## 🎓 Key Features
+## Key Features
 
-- ✅ High accuracy (95.6%) with minimal false positives
-- ✅ Real-time email classification
-- ✅ Interactive prediction interface
-- ✅ Preserves phishing indicators in preprocessing
-- ✅ GPU/MPS acceleration support
-- ✅ Easy to deploy (SafeTensors format)
+- High accuracy (95.6%) with minimal false positives
+- Real-time email classification
+- Preserves phishing indicators in preprocessing
 
-## 📦 Model Files
+## Model Files
 
 The trained model is saved in SafeTensors format for:
 - **Safety**: No arbitrary code execution
@@ -172,7 +169,7 @@ The trained model is saved in SafeTensors format for:
 - **Compatibility**: Cross-platform support
 - **Size**: ~418 MB (optimized)
 
-## 🚀 Deployment Options
+## Deployment Options
 
 ### Hugging Face Spaces (Recommended)
 ```bash
@@ -191,7 +188,7 @@ docker build -t phishing-detector .
 docker run -p 8080:8080 phishing-detector
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -201,31 +198,31 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 👤 Author
+## Author
 
 **Your Name**
 - GitHub: [Tasneem Zaman Labeeb](https://github.com/tasneemlabeeb)
 - Email: your.email@example.com
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Dataset: [Naser Abdullah Alam on Kaggle](https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset)
 - BERT Model: [Google Research](https://github.com/google-research/bert)
 - Hugging Face Transformers: [Hugging Face](https://huggingface.co/)
 
-## 📚 References
+## References
 
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 
-## 📞 Support
+## Support
 
 If you have any questions or issues, please open an issue in the GitHub repository.
 
 ---
 
-⭐ **Star this repository if you find it helpful!**
+**Star this repository if you find it helpful!**
