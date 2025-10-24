@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Exclude everything by default
+*
+
+# Then explicitly include project files
+!.gitignore
+!.gitattributes
+!README.md
+!requirements.txt
+!LICENSE
+!QUICKSTART.md
+!UPLOAD_INSTRUCTIONS.md
+!setup_github.sh
+!Phishing*.ipynb
+!phishing_email.csv.zip
+!final_model/
+!final_model/*
