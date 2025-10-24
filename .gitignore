@@ -33,3 +33,7 @@ ENV/
 !phishing_email.csv.zip
 !final_model/
 !final_model/*
+
+# Include Python app files
+!app.py
+!app_simple.py
