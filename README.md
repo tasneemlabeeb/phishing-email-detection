@@ -208,7 +208,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+- GitHub: [Tasneem Zaman Labeeb](https://github.com/tasneemlabeeb)
 - Email: your.email@example.com
 
 ## 🙏 Acknowledgments
